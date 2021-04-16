@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+}
+#header-img {
+  float: left;
+  margin: 10px 30px 10px 10px;
+}
+
+#nav-bar {
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  z-index: 100;
+  opacity: 80%;
+  top: 0;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  left: 0;
+}
+
+.float-left {
+  float: left;
+  font-weight: 700;
+  color: gray;
+}
+
+li {
+  display: inline;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  float: right;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  padding: 110px 50px 20px 50px;
+}
+
+.iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 50px 20px 50px;
+  font-weight: 600;
+}
+p {
+  padding: 20px 50px 20px 50px;
+}
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.plan {
+  position: relative;
+  max-width: 250px;
+  padding: 15px 15px 50px;
+  margin: 0 15px 30px;
+  background-color: lightgray;
+}
+.price {
+  padding-top: 10px;
+  font-weight: 900;
+}
+
+.btn {
+  position: relative;
+  background: black;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: 0;
+  letter-spacing: 1px;
+}
+
+#subscription {
+  background-color: lightgray;
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+.email {
+  background: black;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: 0;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 980px) {
+  nav-bar {
+    display: none;
+  }
+}
